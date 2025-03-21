@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  .nav-btn {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nav-btn:hover {
+    background-color: #555;
+  }
+  
+  main {
+    padding: 15%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(84, 101, 194, 0.493),rgba(65, 185, 221, 0.459));
+    background-repeat: no-repeat;
+  }
+
+  footer {
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    margin: 0;
+
+  }
+  
+  .info-section {
+    display: none;
+  }
+  
+  .info-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-section p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-btn {
+      margin-bottom: 10px;
+    }
+  
+    main {
+      padding: 15%;
+    }
+  }
+  
